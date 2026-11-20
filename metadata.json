@@ -1,0 +1,6 @@
+{
+  "name": "ردیاب مودم",
+  "description": "پایش خودکار آگهی‌های جدید مودم در ایسام و اطلاع‌رسانی فوری از طریق اعلان",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

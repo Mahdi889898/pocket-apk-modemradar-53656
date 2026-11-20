@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">ردیاب مودم</string>
+
+    <!-- Navigation -->
+    <string name="nav_radar">رادار آگهی</string>
+    <string name="nav_logs">گزارش پایش</string>
+    <string name="nav_settings">تنظیمات</string>
+
+    <!-- Header & Status -->
+    <string name="radar_title">پایشگر زنده مودم</string>
+    <string name="radar_subtitle">دسته مودم • مرتب‌سازی: جدیدترین</string>
+    <string name="status_active">پایش فعال است</string>
+    <string name="status_paused">پایش متوقف شده</string>
+    <string name="status_checking">در حال بررسی سایت…</string>
+    <string name="last_check_never">هنوز بررسی نشده</string>
+    <string name="last_check_prefix">آخرین بررسی: %1$s</string>
+    <string name="action_check_now">بررسی همین الان</string>
+    <string name="action_open_site">باز کردن لینک در مرورگر</string>
+    <string name="action_mark_all_seen">خواندن همه جدیدها</string>
+
+    <!-- Stats -->
+    <string name="stat_total_ads">آگهی‌های ثبت‌شده</string>
+    <string name="stat_new_ads">آگهی جدید</string>
+    <string name="stat_interval">بازه پایش</string>
+
+    <!-- Filters & Search -->
+    <string name="filter_all">همه (%1$d)</string>
+    <string name="filter_new">جدیدها (%1$d)</string>
+    <string name="filter_bookmarked">نشان‌شده (%1$d)</string>
+    <string name="search_hint">جستجو بین مودم‌های یافت‌شده (مثلاً TP-Link، ایرانسل)…</string>
+    <string name="badge_new">جدید</string>
+    <string name="price_unspecified">قیمت درج نشده</string>
+    <string name="action_open_listing">مشاهده آگهی</string>
+    <string name="cd_bookmark_add">افزودن به نشان‌شده‌ها</string>
+    <string name="cd_bookmark_remove">حذف از نشان‌شده‌ها</string>
+    <string name="cd_clear_search">پاک کردن جستجو</string>
+    <string name="cd_listing_image">تصویر آگهی مودم</string>
+    <string name="cd_radar_banner">تصویر پس‌زمینه رادار پایش</string>
+
+    <!-- Permission Banner -->
+    <string name="permission_notif_title">مجوز ارسال اعلان فعال نیست</string>
+    <string name="permission_notif_body">برای دریافت فوری اعلان هنگام ثبت آگهی جدید مودم، مجوز اعلان را فعال کنید.</string>
+    <string name="permission_notif_action">فعال‌سازی اعلان</string>
+
+    <!-- Empty & Error States -->
+    <string name="empty_title">هنوز آگهی‌ای دریافت نشده است</string>
+    <string name="empty_body">دکمه «بررسی همین الان» را بزنید تا آخرین آگهی‌های مودم از لینک متصل‌شده دریافت و پایش شوند.</string>
+    <string name="empty_filter_title">آگهی‌ای با این فیلتر پیدا نشد</string>
+    <string name="empty_filter_body">فیلتر یا عبارت جستجو را تغییر دهید تا سایر آگهی‌ها نمایش داده شوند.</string>
+    <string name="error_banner_title">خطا در ارتباط با سایت</string>
+    <string name="action_retry">تلاش مجدد</string>
+
+    <!-- Activity Logs -->
+    <string name="logs_title">گزارش‌های پایش خودکار</string>
+    <string name="logs_subtitle">سابقه بررسی‌های پس‌زمینه و دستی لینک متصل‌شده</string>
+    <string name="logs_empty_title">گزارشی ثبت نشده است</string>
+    <string name="logs_empty_body">پس از اولین بررسی، نتیجه هر نوبت پایش (تعداد آگهی‌ها و موارد جدید) اینجا ثبت می‌شود.</string>
+    <string name="logs_clear">پاک‌سازی گزارش‌ها</string>
+    <string name="log_status_success">موفق</string>
+    <string name="log_status_empty">بدون آگهی</string>
+    <string name="log_status_error">خطا</string>
+    <string name="log_summary_counts">کل: %1$d آگهی • جدید: %2$d</string>
+
+    <!-- Settings -->
+    <string name="settings_title">تنظیمات ردیاب و اعلان</string>
+    <string name="settings_monitoring_section">پایش خودکار پس‌زمینه</string>
+    <string name="settings_enable_bg">فعال‌سازی پایش پس‌زمینه</string>
+    <string name="settings_enable_bg_desc">بررسی دوره‌ای سایت حتی وقتی برنامه بسته است</string>
+    <string name="settings_interval_label">فاصله زمانی بررسی پس‌زمینه</string>
+    <string name="settings_interval_note">کمترین بازه مجاز پس‌زمینه در اندروید ۱۵ دقیقه است. برای بررسی سریع‌تر هنگام باز بودن برنامه، گزینه زیر را فعال نگه دارید.</string>
+    <string name="settings_foreground_poll">بررسی زنده در حالت باز (هر ۶۰ ثانیه)</string>
+    <string name="settings_foreground_poll_desc">وقتی برنامه روی صفحه باز است، هر یک دقیقه آگهی‌های جدید را چک می‌کند</string>
+    <string name="settings_notification_section">اعلان‌ها</string>
+    <string name="settings_notif_granted">مجوز اعلان فعال است</string>
+    <string name="settings_notif_denied">مجوز اعلان غیرفعال است</string>
+    <string name="settings_test_notif">ارسال اعلان آزمایشی</string>
+    <string name="settings_url_section">لینک متصل‌شده</string>
+    <string name="settings_url_label">آدرس صفحه جستجوی هدف</string>
+    <string name="settings_url_save">ذخیره لینک</string>
+    <string name="settings_url_reset">بازگردانی لینک پیش‌فرض</string>
+    <string name="settings_url_invalid">لطفاً یک آدرس معتبر با شروع https:// وارد کنید.</string>
+    <string name="settings_url_saved">لینک هدف ذخیره شد و پایش روی آدرس جدید تنظیم شد.</string>
+    <string name="settings_cache_section">مدیریت حافظه آگهی‌ها</string>
+    <string name="settings_clear_cache">پاک‌سازی لیست آگهی‌های ذخیره‌شده</string>
+    <string name="settings_clear_cache_desc">در بررسی بعدی، آگهی‌های فعلی مجدداً به‌عنوان پایه ثبت می‌شوند</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">آگهی‌های جدید مودم</string>
+    <string name="notif_channel_desc">اطلاع‌رسانی فوری هنگام ثبت آگهی جدید در دسته مودم</string>
+    <string name="notif_single_title">آگهی جدید مودم ثبت شد!</string>
+    <string name="notif_multi_title">%1$d آگهی جدید مودم ثبت شد!</string>
+    <string name="notif_test_title">تست ردیاب مودم</string>
+    <string name="notif_test_body">اعلان‌های ردیاب مودم با موفقیت فعال هستند. به محض ثبت آگهی جدید، همین‌جا مطلع می‌شوید.</string>
+    <string name="notif_test_sent">اعلان آزمایشی ارسال شد.</string>
+</resources>
